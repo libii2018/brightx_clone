@@ -31,7 +31,7 @@ export default function Contact() {
         <div className="flex flex-col desktop:flex-row items-center desktop:justify-between justify-center tablet:w-[85%] gap-8 w-full">
           <div className="flex flex-col items-center justify-center gap-4 desktop:gap-5 w-full desktop:w-[41%]">
             <div className="flex flex-col items-center desktop:items-start justify-center w-full mb-auto gap-4">
-              <h2 className="text-[36px] lg:text-[46px] lg:text-left text-center text-[#221260] font-semibold leading-[1.24em]">
+              <h2 className="text-[36px] lg:text-[46px] lg:text-left text-center text-[#221260] font-medium leading-[1.24em]">
                 Book An Appointment
               </h2>
               <div className="flex flex-col lg:mt-auto justify-center lg:items-start items-center desktop:gap-10 tablet:gap-10 gap-6">
