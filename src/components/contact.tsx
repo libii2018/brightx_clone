@@ -96,17 +96,17 @@ export default function Contact() {
                   />
                 </div>
               </div>
+              <div className="w-full flex flex-col items-center lg:items-start justify-center">
+                <a
+                  href="#"
+                  className="flex flex-col w-full items-center justify-center overflow-hidden py-[18px] px-6 bg-[#74f4bb] rounded-[60px] hover:opacity-70"
+                >
+                  <p className="text-base text-[#221260] text-center font-medium leading-[1.1em]">
+                    Book Now
+                  </p>
+                </a>
+              </div>
             </form>
-            <div className="w-full flex flex-col items-center lg:items-start justify-center">
-              <a
-                href="#"
-                className="flex flex-col w-full items-center justify-center overflow-hidden py-[18px] px-6 bg-[#74f4bb] rounded-[60px]"
-              >
-                <p className="text-base text-[#221260] text-center font-medium leading-[1.1em]">
-                  Book Now
-                </p>
-              </a>
-            </div>
           </div>
           <div className="flex flex-col items-center justify-center rounded-[24px] overflow-hidden w-full aspect-[.9781931464174455/1] desktop:h-[642px] tablet:h-[572px] desktop:w-[49%]">
             <iframe

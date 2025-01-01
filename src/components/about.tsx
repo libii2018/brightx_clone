@@ -41,7 +41,7 @@ export default function About() {
             <div className="w-full flex flex-col items-center lg:items-start justify-center">
               <a
                 href="#"
-                className="flex flex-col w-fit items-center justify-center overflow-hidden py-[18px] px-6 bg-[#74f4bb] rounded-[16px]"
+                className="flex flex-col w-fit items-center justify-center overflow-hidden py-[18px] px-6 bg-[#74f4bb] rounded-[16px] hover:opacity-70"
               >
                 <p className="text-base text-[#221260] text-center font-medium leading-[1.1em]">
                   Learn About Us

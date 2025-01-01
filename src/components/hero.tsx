@@ -45,7 +45,7 @@ export default function Hero() {
             <div className="w-full flex flex-col items-center justify-center md:justify-start md:items-start">
               <a
                 href="#"
-                className="flex flex-col w-fit items-center justify-center overflow-hidden py-[13px] px-6 bg-[#74f4bb] rounded-[16px]"
+                className="flex flex-col w-fit items-center justify-center overflow-hidden py-[13px] px-6 bg-[#74f4bb] rounded-[16px] hover:opacity-70"
               >
                 <p className="text-base text-[#221260] text-center font-medium leading-[1.1em]">
                   Book An Appointment

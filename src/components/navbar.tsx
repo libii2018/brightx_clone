@@ -24,7 +24,7 @@ export default function Navbar() {
         } inset-0 bg-transparent z-10 tablet:hidden`}
       ></div>
       <nav
-        className={`w-full tablet:pt-[32px] tablet:px-[30px] tablet:pb-0 py-[15px] px-[20px] flex desktop:absolute tablet:absolute fixed bg-white  tablet:shadow-none left-0 top-0 ${
+        className={`w-full desktop:pt-[32px] desktop:px-[30px] desktop:pb-0 tablet:pt-[32px] tablet:px-[30px] tablet:pb-0 py-[15px] px-[20px] flex desktop:block tablet:absolute max-sm:fixed bg-white desktop:shadow-none tablet:shadow-none left-0 top-0 ${
           fixed ? "shadow-[0px_0px_16px_0px_rgba(0,0,0,0.1)]" : ""
         }`}
       >
@@ -238,7 +238,7 @@ export default function Navbar() {
             <div className="flex flex-row w-full gap-4">
               <a
                 href="#"
-                className="desktop:flex hidden flex-row items-center justify-center py-[13px] px-6 gap-3 border-[1px] border-[#22126033] rounded-2xl"
+                className="desktop:flex hidden flex-row items-center justify-center py-[13px] px-6 gap-3 border-[1px] border-[#22126033] rounded-2xl hover:border-[#221260]"
               >
                 <div className="h-6 w-6">
                   <svg
@@ -262,7 +262,7 @@ export default function Navbar() {
                 </div>
               </a>
 
-              <a className="flex flex-row items-center justify-center py-[13px] px-6 gap-3 border-[1px] bg-[#74f4bb] rounded-2xl">
+              <a className="flex flex-row cursor-pointer items-center justify-center py-[13px] px-6 gap-3 border-[1px] bg-[#74f4bb] rounded-2xl   ">
                 <div>
                   <p className="text-base font-[540] text-[#221260] leading-[1.7em] ">
                     Book An Appointment

@@ -82,9 +82,9 @@ export default function Services() {
         <div className="w-full flex flex-col items-center justify-center">
           <a
             href="#"
-            className="flex flex-col w-fit items-center justify-center overflow-hidden border-[1px] py-[18px] px-6 bg-transparent rounded-[16px]"
+            className="flex flex-col w-fit text-[#221260] items-center justify-center overflow-hidden border-[1px] py-[18px] px-6 bg-transparent rounded-[16px] hover:text-[#74f4bb] hover:opacity-70"
           >
-            <p className="text-base text-[#221260] text-center font-medium leading-[1.1em]">
+            <p className="text-base  text-center font-medium leading-[1.1em]">
               View All Services
             </p>
           </a>
